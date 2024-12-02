@@ -14,6 +14,7 @@ This database models the fighters, events, customers, and employees of the UFC s
 
 There were a few changes made to the data model which are worth pointing out. A Many to Many recursive relationship was added to the Fighters entity which now displays the fighter ID of the oppenent opposite of a fighter in a given match. A fighter can have many openents and an openent will be oposite of many fighters throughout their career. The modality between Fighters and Belts was also altered to further distingiush their relationship. A fighter can have 0 to many belts but a belt can only have one fighter. Another change to the data model was the addition of the currentRankings attribute to the fighter entity, which stores each fighter's current ranking information. Finally, the database was populated with many more entries to enhance visualizations and query results.
 ## Data Dictionary 
+![image](https://github.com/user-attachments/assets/0374d34a-905e-4367-89c4-29a0982a9ff9)
 
 ## Five Complex Queries 
 
