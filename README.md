@@ -55,6 +55,15 @@ There were a few changes made to the data model which are worth pointing out. A 
 
 ![Screenshot 2024-11-21 at 11 31 38 AM](https://github.com/user-attachments/assets/2c95787c-9a13-4dc0-a0f0-936434991ac6)
 
+3. Query 3
+
+   
+4. Query 4
+
+
+5. Query 5
+
+   
 ## Three Visualizations
 1. Visualization 1  shows the average ticket price and attendance by venue. Management can use this visualisation to focus on specific venues. Venues that have high ticket prices and high attendance would draw in more revenue. For example, the Tokyo Dome.
 
@@ -64,6 +73,9 @@ There were a few changes made to the data model which are worth pointing out. A 
 
 ![image](https://github.com/user-attachments/assets/8c238e23-ce6b-4fcf-8aa3-fff943f0419c)
 
+3. Visualization 3
+
+   
 ## Database Information
 Name of the database: cs_meb61924
 
