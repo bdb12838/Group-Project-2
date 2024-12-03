@@ -74,6 +74,9 @@ There were a few changes made to the data model which are worth pointing out. A 
 ![image](https://github.com/user-attachments/assets/8c238e23-ce6b-4fcf-8aa3-fff943f0419c)
 
 3. Visualization 3
+Shows the average payment per fighter. This can help managers by finding out who brings in the most revenue so they can sell more tickets. Can also help the UFC understand what a fighter expects to get paid from each and fight and help them budget their fights in order to maximize profit.
+
+<img width="1094" alt="Screenshot 2024-12-03 at 1 45 04 PM" src="https://github.com/user-attachments/assets/16b4d355-b3de-4faf-94f4-c2d1634933f4">
 
    
 ## Database Information
