@@ -27,18 +27,42 @@ Customers is the last entity in our model and it contains the names, emails, and
 There were a few changes made to the data model which are worth pointing out. A Many to Many recursive relationship was added to the Fighters entity which now displays the fighter ID of the oppenent opposite of a fighter in a given match. A fighter can have many openents and an openent will be oposite of many fighters throughout their career. The modality between Fighters and Belts was also altered to further distingiush their relationship. A fighter can have 0 to many belts but a belt can only have one fighter. Another change to the data model was the addition of the currentRankings attribute to the fighter entity, which stores each fighter's current ranking information. Finally, the database was populated with many more entries to enhance visualizations and query results.
 ## Data Dictionary
 ![Screenshot 2024-12-03 at 11 33 55 AM](https://github.com/user-attachments/assets/936882a9-3835-4f21-af58-fb42e71dfcfe)
+
 ![image](https://github.com/user-attachments/assets/0374d34a-905e-4367-89c4-29a0982a9ff9)
+
 ![image](https://github.com/user-attachments/assets/be826c1a-40a3-4485-8778-efd2c31ec947)
+
 ![Screenshot 2024-12-03 at 11 33 36 AM](https://github.com/user-attachments/assets/0f509482-11cb-49fc-9d40-c73b8735d75d)
+
 ![image](https://github.com/user-attachments/assets/c0b39a22-0258-47ed-a675-e2845ad1f1ee)
+
 ![image](https://github.com/user-attachments/assets/b6e97d83-03ee-4091-a464-f096eefa91bc)
+
 ![image](https://github.com/user-attachments/assets/ecdbb8c0-5b3e-41f4-af5d-6c5918ffec9a)
+
 ![image](https://github.com/user-attachments/assets/6fc86ebe-d405-4be6-bae0-3e87a288142e)
+
 ![image](https://github.com/user-attachments/assets/b2e7457c-c5fa-483b-b95f-c3a7b5c4fe13)
+
 ![image](https://github.com/user-attachments/assets/0146862a-6ec4-4548-9b5f-ef6d7bb9f91d)
+
 ## Five Complex Queries 
+1. Query 1 returns the fighters name , ranking , weight class, and the average win ratio of their opponents. The Fighters table is duplicated (one for main, one for the opponent) and both are joined to EventStatistics. This query is useful so management can easily view the overall quality of opponents that a fighter has faced, which they can use to factor into the rankings. A fighter may be overrated if they have been beating opponents with bad records and vice versa. 
+
+![Screenshot 2024-11-21 at 11 30 45 AM](https://github.com/user-attachments/assets/0ad211b9-2e9f-42f3-82d1-305764644a05)
+
+2. Query 2 shows the month and the corresponding average ticket price by joining the Events table and CustomersViewingEvents table and year is limited to 2024. With this query management can see the average ticket price for each month, which can be useful in scheduling future events. For 2025 the UFC might try and host multiple events in June and October since they had the highest average ticket prices in 2024.
+
+![Screenshot 2024-11-21 at 11 31 38 AM](https://github.com/user-attachments/assets/2c95787c-9a13-4dc0-a0f0-936434991ac6)
 
 ## Three Visualizations
+1. Visualization 1  shows the average ticket price and attendance by venue. Management can use this visualisation to focus on specific venues. Venues that have high ticket prices and high attendance would draw in more revenue. For example, the Tokyo Dome.
+
+![image](https://github.com/user-attachments/assets/7a6e4e93-fa43-49cd-8cae-c179f07f220f)
+
+2. Visualization 2 shows the average height and wingspan of each weight class. This can help managers of fighters to pick which weight class they want to get into based on their height and wingspan. Since weight is something that a fighter can more or less change, this will help them see which weight class they have a clear height and reach advantage. 
+
+![image](https://github.com/user-attachments/assets/8c238e23-ce6b-4fcf-8aa3-fff943f0419c)
 
 ## Database Information
 Name of the database: cs_meb61924
