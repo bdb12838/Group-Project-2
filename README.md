@@ -59,12 +59,13 @@ There were a few changes made to the data model which are worth pointing out. A 
 
 ![Screenshot 2024-12-03 at 1 28 58 PM](https://github.com/user-attachments/assets/c597eb3c-afbd-4b80-9c39-53a7988438d9)
   
-4. Query 4 draws from a view that contains the names, ages, and total payments of fighters that have recieved a payment. The query itself returns all the information from the view for fighters that have made more the average total payments for all fighters. Management can use this view and query to see which fighters have made more in their careers than the average fighter and if their is any correlation between that statistic and the fighters age. 
+4. This SQL code creates a view called FighterPayments that contains the names, ages, and total payments of fighters that have recieved a payment. The query itself returns all the information from the view for fighters that have made more the average total payments for all fighters. Management can use this view and query to see which fighters have made more in their careers than the average fighter and if their is any correlation between that statistic and the fighters age. 
 
 ![Screenshot 2024-12-03 at 2 07 51 PM](https://github.com/user-attachments/assets/108effef-a2ba-4a35-af77-d758bc296d48)
 
-5. Query 5
+5. This SQL code creates a procedure called TopFightersBy that returns the names, rankings, and countries of the top two fighters of a inputted weightclass. In this screenshot TopFightersBy is called with the input "Heavyweight". Managers can use this procedure to quickly look up the two highest ranked fighters of a given division, which allows them to schedule the best matches. 
 
+![Screenshot 2024-12-03 at 2 33 18 PM](https://github.com/user-attachments/assets/e4da2012-81a7-45f8-8dfc-57711a7dd2e8)
    
 ## Three Visualizations
 1. Visualization 1  shows the average ticket price and attendance by venue. Management can use this visualisation to focus on specific venues. Venues that have high ticket prices and high attendance would draw in more revenue. For example, the Tokyo Dome.
