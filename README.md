@@ -55,9 +55,10 @@ There were a few changes made to the data model which are worth pointing out. A 
 
 ![Screenshot 2024-11-21 at 11 31 38 AM](https://github.com/user-attachments/assets/2c95787c-9a13-4dc0-a0f0-936434991ac6)
 
-3. Query 3
+3. Query 3 returns the ids, names, job titles, and number of employees managed for all UFC employees. The results are sorted by number of employees managed and then by employee id. This query can be used to see the management structure of the UFC and if some bosses are managing too many or too few employees.
 
-   
+![Screenshot 2024-12-03 at 1 28 58 PM](https://github.com/user-attachments/assets/c597eb3c-afbd-4b80-9c39-53a7988438d9)
+  
 4. Query 4
 
 
